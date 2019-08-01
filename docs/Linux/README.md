@@ -1,49 +1,9 @@
-> 使用[Hexo](https://hexo.io/)搭建个人网站 只需要简单的配置即可建站 一条命令即部署到Github Pages.
-> 
-> 支持Markdown文件 基于Node.js快速渲染 可以自定义主题
+# Summary
 
-# [示例](https://liuningchuan.github.io/)
-![example](./source/images/example.png)
-
-### 初始化
-```bash
-git clone https://github.com/liuningchuan/blog.git
-cd blog
-npm install
-```
-
-### 运行
-Run hexo in local environment
-
-```shell
-hexo server
-hexo server --debug
-```
-
-Clean cache
-
-```
-hexo clean
-```
-
-Generate the static file
-
-```bash
-hexo generate
-```
-
-### 部署
-Config the deploy
-```yml
-deploy:
-  type: git
-  repository: git@github.com:liuningchuan/liuningchuan.github.io.git
-  branch: master
-```
-
-Deploy
-
-```
-hexo deploy
-```
+- [Debian系统配置使用心得](debian-system-config.md)
+- [Linux修改文件权限](linux-change-file-permission.md)
+- [Linux软件安装目录](linux-file-catelog.md)
+- [Ubuntu安装MySql](ubuntu-install-mysql.md)
+- [butnu解决zip中文乱码问题](ubuntu-zip-chinese-error-code.md)
+- [Ubuntu18.04安装jdk](ubuntu18.04-install-jdk.md)
 
