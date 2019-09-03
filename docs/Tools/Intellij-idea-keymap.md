@@ -1,14 +1,3 @@
----
-title: "玩转Intellij IDEA"
-catalog: true
-date: 2018-10-18 10:51:24
-header-img: "/images/archive-bg.png"
-tags:
-- 编程工具
-catagories:
-- Hexo
----
-
 
 ### 无处不在的跳转
 

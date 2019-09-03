@@ -1,14 +1,3 @@
----
-title: "Linux修改文件权限"
-catalog: true
-date: 2018-07-22 10:51:24
-header-img: "/images/archive-bg.png"
-tags:
-- Linux
-catagories:
-- Hexo
----
-
 Linux系统下经常遇到文件或者文件夹的权限问题，或者是因为文件夹所属的用户问题而没有访问的权限。根据我自己遇到的情况，对这类问题做一个小结。
 
 在命令行使用命令“ll”或者“ls -a”，可以查看文件或者文件的权限：

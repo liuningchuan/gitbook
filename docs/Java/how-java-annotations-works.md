@@ -1,14 +1,3 @@
----
-title: "Java中的注解是怎样工作的"
-catalog: true
-date: 2019-06-13 10:51:24
-header-img: "/images/archive-bg.png"
-tags:
-- Java
-catagories:
-- Hexo
----
-
 ### 什么是注解
 
 用一个词就可以描述注解，那就是元数据，即一种描述数据的数据。所以，可以说注解就是源代码的元数据。比如，下面这段代码：

@@ -1,15 +1,3 @@
----
-title: "Node.js安装"
-catalog: true
-date: 2018-09-18 10:51:24
-header-img: "/images/archive-bg.png"
-tags:
-- 前端
-- 编程工具
-catagories:
-- Hexo
----
-
 [官网](https://nodejs.org/en/)下载源码包,解压安装,如果要安装不同版本则只需要改变版本号即可
 
 ```bash

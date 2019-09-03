@@ -1,14 +1,3 @@
----
-title: "Debian系统配置使用心得"
-catalog: true
-date: 2018-08-12 10:51:24
-header-img: "/images/archive-bg.png"
-tags:
-- Linux
-catagories:
-- Hexo
----
-
 经过自己作死般不停地瞎折腾，抛弃了Ubuntu又给电脑装上了Debian。
 
 这么些天折腾下来，什么技术没学到，Linux发行版倒是体验了好几种，我想Debian应该是最终的选择了吧，呵呵。

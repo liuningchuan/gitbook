@@ -1,15 +1,3 @@
----
-title: "前后端分离思考与实践"
-catalog: true
-date: 2018-10-18 10:51:24
-header-img: "/images/archive-bg.png"
-tags:
-- 前端
-- React
-catagories:
-- Hexo
----
-
 ### 传统技术
 
 前后端的代码存放在同一个工程目录下，前后端工程师进行开发时，都必须把整个项目导入到开发工具中（像myEclipse和IntelliJ IDEA等）

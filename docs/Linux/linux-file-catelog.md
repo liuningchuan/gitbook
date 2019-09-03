@@ -1,14 +1,3 @@
----
-title: "Linux软件安装目录"
-catalog: true
-date: 2018-07-19 10:51:24
-header-img: "/images/archive-bg.png"
-tags:
-- Linux
-catagories:
-- Hexo
----
-
 | 文件类型                         | 安装位置       |
 | -------------------------------- | -------------- |
 | 用户自己的软件                   | /usr/local     |

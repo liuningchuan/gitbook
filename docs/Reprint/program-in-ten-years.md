@@ -1,14 +1,3 @@
----
-title: "用十年来学编程"
-catalog: true
-date: 2018-02-25 10:51:24
-header-img: "/images/archive-bg.png"
-tags:
-- 转载
-catagories:
-- Hexo
----
-
 ### 为什么每个人都这么着急？
 
 走进任何一家书店，你会看到名为《如何在 24 小时内学会 Java》的书，还有各 种各样类似的书： 在几天内或几小时内学会 C，SQL，Ruby，算法等等，一眼望不到 尽头。我在 Amazon 上做了如下的高级检索 ：[[title: teach, yourself, hours, since: 2000](http://www.amazon.com/gp/search/ref=sr_adv_b/?search-alias=stripbooks&unfiltered=1&field-keywords=&field-author=&field-title=teach+yourself+hours&field-isbn=&field-publisher=&node=&field-p_n_condition-type=&field-feature_browse-bin=&field-subject=&field-language=&field-dateop=After&field-datemod=&field-dateyear=2000&sort=relevanceexprank&Adv-Srch-Books-Submit.x=16&Adv-Srch-Books-Submit.y=5) ]得到了512 本这样的书。在前十本中有九本是关于编程的书（其它的是关于记账的）。把 “teach yourself” 换成 “learn” 或者用 “hours” 换成 “days”，可以得到了类似的结果。

@@ -1,14 +1,3 @@
----
-title: "git使用简单总结"
-catalog: true
-date: 2018-08-18 10:51:24
-header-img: "/images/archive-bg.png"
-tags:
-- 编程工具
-catagories:
-- Hexo
----
-
 ### 新建分支
 
 ```shell

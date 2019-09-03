@@ -1,14 +1,3 @@
----
-title: "Java知识总结"
-catalog: true
-date: 2018-03-18 10:51:24
-header-img: "/images/archive-bg.png"
-tags:
-- Java
-catagories:
-- Hexo
----
-
 - **JVM中虚拟栈中存的是对象的地址（引用），创建的对象实质在堆中。**
 
 - **java中的接口支持多继承，即一个子接口可以有多个父接口。**

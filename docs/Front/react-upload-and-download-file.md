@@ -1,15 +1,3 @@
----
-title: "React中使用fetch实现文件上传下载"
-catalog: true
-date: 2018-11-18 10:51:24
-header-img: "/images/archive-bg.png"
-tags:
-- 前端
-- React
-catagories:
-- Hexo
----
-
 在最近的项目中需要实现文件上传下载功能，在以前spring、jsp的项目中实现文件上传很简单，但现在前后端分离，前端使用**React**，后端使用**Spring Boot**，实现就没那么方便了。
 
 前端React使用**fetch**而非传统的**XMLHttpRequest**从后端获取Json数据，那么文件上传自然而然也要使用fetch了。

@@ -1,14 +1,3 @@
----
-title: "从Intel和ARM争霸战，看看做芯片有多难"
-catalog: true
-date: 2018-07-27 23:02:16
-header-img: "/images/archive-bg.png"
-tags:
-- 转载
-catagories:
-- Hexo
----
-
 原文链接：https://www.jianshu.com/p/1ac347d0420b
 
 

@@ -1,14 +1,3 @@
----
-title: "HTML5新特性"
-catalog: true
-date: 2019-07-02 17:35:24
-header-img: "/images/archive-bg.png"
-tags:
-- JavaScript
-catagories:
-- Hexo
----
-
 #### HTML5新特性
 
 - 语义化标签，如**header**、**footer**、**nav**、**section**、**aside**等

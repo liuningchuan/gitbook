@@ -1,14 +1,3 @@
----
-title: "Ubuntu安装MySql"
-catalog: true
-date: 2018-07-29 10:51:24
-header-img: "/images/archive-bg.png"
-tags:
-- Linux
-catagories:
-- Hexo
----
-
 根据MySQL官方说明，在Debian/Ubuntu下安装MySQL很简单，只需要几条命令。首先下载Debian/Ubuntu MySQL APT repository，即APT支持包。
 
 下载地址：https://dev.mysql.com/downloads/repo/apt/.

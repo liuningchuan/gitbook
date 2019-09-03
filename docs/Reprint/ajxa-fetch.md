@@ -1,14 +1,3 @@
----
-title: "Ajxa已死，fetch永生"
-catalog: true
-date: 2018-08-13 10:51:24
-header-img: "/images/archive-bg.png"
-tags:
-- 转载
-catagories:
-- Hexo
----
-
 原谅我做一次标题党，Ajax 不会死，传统 Ajax 指的是 **XMLHttpRequest**（XHR），未来现在已被 **Fetch** 替代。
 
 最近把阿里一个千万级 PV 的数据产品全部由 jQuery 的 `$.ajax` 迁移到 `Fetch`，上线一个多月以来运行非常稳定。结果证明，对于 IE8+ 以上浏览器，在生产环境使用 Fetch 是可行的。

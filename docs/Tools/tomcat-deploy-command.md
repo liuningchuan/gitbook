@@ -1,15 +1,3 @@
----
-title: "Tomcat部署常用命令"
-catalog: true
-date: 2019-06-02 10:51:24
-header-img: "/images/archive-bg.png"
-tags:
-- Java
-- Linux
-catagories:
-- Hexo
----
-
 ### 部署
 
 一般情况下进入 **/bin** 路径下shutdown.sh关闭

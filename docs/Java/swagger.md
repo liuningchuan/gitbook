@@ -1,14 +1,3 @@
----
-title: "Swagger"
-catalog: true
-date: 2019-03-23 10:51:24
-header-img: "/images/archive-bg.png"
-tags:
-- Java
-- Spring
-catagories:
-- Hexo
----
 Swagger是一个流行的API开发框架，这个框架以“开放API声明”（OpenAPI Specification，OAS）为基础，对整个API的开发周期都提供了相应的解决方案，是一个非常庞大的项目（包括设计、编码和测试，几乎支持所有语言）。
 
 OAS本身是一个API规范，它用于描述一整套API接口，包括一个接口是GET还是POST请求啊，有哪些参数哪些header啊，都会被包括在这个文件中。它在设计的时候通常是YAML格式，这种格式书写起来比较方便，而在网络中传输时又会以json形式居多，因为json的通用性比较强。

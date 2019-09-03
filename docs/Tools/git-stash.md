@@ -1,14 +1,3 @@
----
-title: "git stash详解"
-catalog: true
-date: 2019-06-05 10:51:24
-header-img: "/images/archive-bg.png"
-tags:
-- 编程工具
-catagories:
-- Hexo
----
-
 ### 应用场景：
 
 **1**.当正在dev分支上开发某个项目，这时项目中出现一个bug，需要紧急修复，但是正在开发的内容只是完成一半，还不想提交，这时可以用git stash命令将修改的内容保存至堆栈区，然后顺利切换到hotfix分支进行bug修复，修复完成后，再次切回到dev分支，从堆栈中恢复刚刚保存的内容。 
