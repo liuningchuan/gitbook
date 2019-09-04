@@ -1,0 +1,862 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>用十年来学编程 · 《On Java 8》中文版</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="LingCoder">
+        
+        
+    
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-emphasize/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-toggle-chapters/toggle.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-katex/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-mermaid-gb3/mermaid/mermaid.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-advanced-emoji/emoji-website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="the-battle-between-Intel-and-ARM.html" />
+    
+    
+    <link rel="prev" href="Alibaba.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../Java/">
+            
+                <a href="../Java/">
+            
+                    
+                    Java
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../Java/how-java-annotations-works.html">
+            
+                <a href="../Java/how-java-annotations-works.html">
+            
+                    
+                    Java中的注解是怎样工作的
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../Java/difference-between-interceptor-and-filter.html">
+            
+                <a href="../Java/difference-between-interceptor-and-filter.html">
+            
+                    
+                    Interceptor和Fliter的区别
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../Java/swagger.html">
+            
+                <a href="../Java/swagger.html">
+            
+                    
+                    Swagger
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../Java/summary-of-java.html">
+            
+                <a href="../Java/summary-of-java.html">
+            
+                    
+                    Java知识总结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../Front/">
+            
+                <a href="../Front/">
+            
+                    
+                    前端
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../Front/html5-new-feature.html">
+            
+                <a href="../Front/html5-new-feature.html">
+            
+                    
+                    Html5新特性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../Front/install-nodejs.html">
+            
+                <a href="../Front/install-nodejs.html">
+            
+                    
+                    nodejs安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../Front/react-upload-and-download-file.html">
+            
+                <a href="../Front/react-upload-and-download-file.html">
+            
+                    
+                    React中使用fetch实现文件上传下载
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../Front/divide-between-frontend-and-backend.html">
+            
+                <a href="../Front/divide-between-frontend-and-backend.html">
+            
+                    
+                    前后端分离思考与实践
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../Front/cors.html">
+            
+                <a href="../Front/cors.html">
+            
+                    
+                    跨域问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../Linux/">
+            
+                <a href="../Linux/">
+            
+                    
+                    Linux
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../Linux/debian-system-config.html">
+            
+                <a href="../Linux/debian-system-config.html">
+            
+                    
+                    Debian系统配置使用心得
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../Linux/linux-change-file-permission.html">
+            
+                <a href="../Linux/linux-change-file-permission.html">
+            
+                    
+                    Linux修改文件权限
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../Linux/linux-file-catelog.html">
+            
+                <a href="../Linux/linux-file-catelog.html">
+            
+                    
+                    Linux软件安装目录
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../Linux/ubuntu-install-mysql.html">
+            
+                <a href="../Linux/ubuntu-install-mysql.html">
+            
+                    
+                    Ubuntu安装MySql
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../Linux/ubuntu-zip-chinese-error-code.html">
+            
+                <a href="../Linux/ubuntu-zip-chinese-error-code.html">
+            
+                    
+                    butnu解决zip中文乱码问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="../Linux/ubuntu18.04-install-jdk.html">
+            
+                <a href="../Linux/ubuntu18.04-install-jdk.html">
+            
+                    
+                    Ubuntu18.04安装jdk
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../Tools/">
+            
+                <a href="../Tools/">
+            
+                    
+                    编程工具
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../Tools/git-stash.html">
+            
+                <a href="../Tools/git-stash.html">
+            
+                    
+                    git stash详解
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../Tools/git.html">
+            
+                <a href="../Tools/git.html">
+            
+                    
+                    git使用简单总结
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../Tools/Intellij-idea-keymap.html">
+            
+                <a href="../Tools/Intellij-idea-keymap.html">
+            
+                    
+                    玩转Intellij IDEA
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../Tools/tomcat-deploy-command.html">
+            
+                <a href="../Tools/tomcat-deploy-command.html">
+            
+                    
+                    Tomcat部署常用命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    转载
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="Alibaba.html">
+            
+                <a href="Alibaba.html">
+            
+                    
+                    一个从阿里面试回来的程序员的感想
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.6.2" data-path="program-in-ten-years.html">
+            
+                <a href="program-in-ten-years.html">
+            
+                    
+                    用十年来学编程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="the-battle-between-Intel-and-ARM.html">
+            
+                <a href="the-battle-between-Intel-and-ARM.html">
+            
+                    
+                    从Intel和ARM争霸战，看看做芯片有多难
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="ajxa-fetch.html">
+            
+                <a href="ajxa-fetch.html">
+            
+                    
+                    Ajxa已死，fetch永生
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >用十年来学编程</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h3 id="&#x4E3A;&#x4EC0;&#x4E48;&#x6BCF;&#x4E2A;&#x4EBA;&#x90FD;&#x8FD9;&#x4E48;&#x7740;&#x6025;&#xFF1F;">&#x4E3A;&#x4EC0;&#x4E48;&#x6BCF;&#x4E2A;&#x4EBA;&#x90FD;&#x8FD9;&#x4E48;&#x7740;&#x6025;&#xFF1F;</h3>
+<p>&#x8D70;&#x8FDB;&#x4EFB;&#x4F55;&#x4E00;&#x5BB6;&#x4E66;&#x5E97;&#xFF0C;&#x4F60;&#x4F1A;&#x770B;&#x5230;&#x540D;&#x4E3A;&#x300A;&#x5982;&#x4F55;&#x5728; 24 &#x5C0F;&#x65F6;&#x5185;&#x5B66;&#x4F1A; Java&#x300B;&#x7684;&#x4E66;&#xFF0C;&#x8FD8;&#x6709;&#x5404; &#x79CD;&#x5404;&#x6837;&#x7C7B;&#x4F3C;&#x7684;&#x4E66;&#xFF1A; &#x5728;&#x51E0;&#x5929;&#x5185;&#x6216;&#x51E0;&#x5C0F;&#x65F6;&#x5185;&#x5B66;&#x4F1A; C&#xFF0C;SQL&#xFF0C;Ruby&#xFF0C;&#x7B97;&#x6CD5;&#x7B49;&#x7B49;&#xFF0C;&#x4E00;&#x773C;&#x671B;&#x4E0D;&#x5230; &#x5C3D;&#x5934;&#x3002;&#x6211;&#x5728; Amazon &#x4E0A;&#x505A;&#x4E86;&#x5982;&#x4E0B;&#x7684;&#x9AD8;&#x7EA7;&#x68C0;&#x7D22; &#xFF1A;[<a href="http://www.amazon.com/gp/search/ref=sr_adv_b/?search-alias=stripbooks&amp;unfiltered=1&amp;field-keywords=&amp;field-author=&amp;field-title=teach+yourself+hours&amp;field-isbn=&amp;field-publisher=&amp;node=&amp;field-p_n_condition-type=&amp;field-feature_browse-bin=&amp;field-subject=&amp;field-language=&amp;field-dateop=After&amp;field-datemod=&amp;field-dateyear=2000&amp;sort=relevanceexprank&amp;Adv-Srch-Books-Submit.x=16&amp;Adv-Srch-Books-Submit.y=5" target="_blank">title: teach, yourself, hours, since: 2000</a> ]&#x5F97;&#x5230;&#x4E86;512 &#x672C;&#x8FD9;&#x6837;&#x7684;&#x4E66;&#x3002;&#x5728;&#x524D;&#x5341;&#x672C;&#x4E2D;&#x6709;&#x4E5D;&#x672C;&#x662F;&#x5173;&#x4E8E;&#x7F16;&#x7A0B;&#x7684;&#x4E66;&#xFF08;&#x5176;&#x5B83;&#x7684;&#x662F;&#x5173;&#x4E8E;&#x8BB0;&#x8D26;&#x7684;&#xFF09;&#x3002;&#x628A; &#x201C;teach yourself&#x201D; &#x6362;&#x6210; &#x201C;learn&#x201D; &#x6216;&#x8005;&#x7528; &#x201C;hours&#x201D; &#x6362;&#x6210; &#x201C;days&#x201D;&#xFF0C;&#x53EF;&#x4EE5;&#x5F97;&#x5230;&#x4E86;&#x7C7B;&#x4F3C;&#x7684;&#x7ED3;&#x679C;&#x3002;</p>
+<p>&#x4ECE;&#x4E0A;&#x9762;&#x7684;&#x641C;&#x7D22;&#x7ED3;&#x679C;&#x53EF;&#x4EE5;&#x770B;&#x51FA;&#x6765;&#xFF0C;&#x8981;&#x4E48;&#x5C31;&#x662F;&#x4EBA;&#x4EEC;&#x5BF9;&#x8BA1;&#x7B97;&#x673A;&#x6280;&#x672F;&#x7684;&#x5B66;&#x4E60;&#x5982;&#x9965;&#x4F3C;&#x6E34;&#xFF0C;&#x8981;&#x4E48;&#x5C31;&#x662F;&#x8BA1;&#x7B97;&#x673A;&#x6280;&#x672F;&#x5B9E;&#x5728;&#x592A;&#x7B80;&#x5355;&#xFF0C;&#x4E0D;&#x8D39;&#x5439;&#x7070;&#x4E4B;&#x529B;&#x5C31;&#x80FD;&#x5B66;&#x4F1A;&#x3002;Felleisen &#x4EE5;&#x53CA;&#x5176;&#x5B83;&#x4EBA;&#x5728;&#x4ED6;&#x4EEC;&#x7684;&#x8457;&#x4F5C;<a href="http://www.ccs.neu.edu/home/matthias/HtDP2e/index.html" target="_blank">&#x300A;&#x5982;&#x4F55;&#x8BBE;&#x8BA1;&#x7A0B;&#x5E8F;&#x300B;</a>&#x4E00;&#x4E66;&#x4E2D;&#x660E;&#x786E;&#x6307;&#x51FA;&#x4E86;&#x8FD9;&#x79CD;&#x201C;&#x901F;&#x6210;&#x201D;&#x7684;&#x8D8B;&#x52BF;&#xFF0C;&#x5E76;&#x8BC4;&#x8BBA;&#x5230;&#xFF1A;&#x201C;&#x5783;&#x573E;&#x7684;&#x7F16;&#x7A0B;&#x6280;&#x672F;&#x5F53;&#x7136;&#x975E;&#x5E38;&#x5BB9;&#x6613;&#xFF0C;&#x50BB;&#x5B50;&#x90FD;&#x80FD;&#x5728; 21 &#x5929;&#x4E4B;&#x5185;&#x5B66;&#x4F1A;&#xFF0C;&#x54EA;&#x6015;&#x4ED6;&#x5929;&#x751F;&#x5C31;&#x662F;&#x4E2A;&#x767D;&#x75F4;&#x3002;&#x201D; Abtruse Goose &#x7684;&#x6F2B;&#x753B;&#x4E2D;&#x4E5F;&#x6709;<a href="http://abstrusegoose.com/249" target="_blank">&#x7C7B;&#x4F3C;&#x5C1D;&#x8BD5;</a>&#x3002;</p>
+<p>&#x8BA9;&#x6211;&#x4EEC;&#x5206;&#x6790;&#x4E00;&#x4E0B;&#xFF0C;&#x50CF;&#x4E00;&#x672C;&#x540D;&#x4E3A;&#x300A;<strong>24 &#x5C0F;&#x65F6;&#x5185;&#x5B66;&#x4F1A; C++</strong>&#x300B;&#x7684;&#x4E66;&#x610F;&#x5473;&#x7740;&#x4EC0;&#x4E48;&#xFF1A;</p>
+<ul>
+<li><strong>&#x5B66;&#x4E60;&#xFF1A;</strong> &#x5728; 24 &#x5C0F;&#x65F6;&#x91CC;&#xFF0C;&#x4F60;&#x6CA1;&#x6709;&#x65F6;&#x95F4;&#x5199;&#x4E00;&#x4E9B;&#x91CD;&#x5927;&#x7684;&#x7A0B;&#x5E8F;&#xFF0C;&#x5E76;&#x4ECE;&#x6210;&#x529F;&#x6216;&#x5931;&#x8D25;&#x4E2D;&#x5F97;&#x76CA;&#x3002;&#x4F60;&#x6CA1;&#x6709;&#x65F6;&#x95F4;&#x4E0E;&#x6709;&#x7ECF;&#x9A8C;&#x7684;&#x7A0B;&#x5E8F;&#x5458;&#x5408;&#x4F5C;&#xFF0C;&#x5E76;&#x7406;&#x89E3;&#x5728; C++ &#x7684;&#x73AF;&#x5883;&#x4E0B;&#x5DE5;&#x4F5C;&#x662F;&#x600E;&#x4E48;&#x56DE;&#x4E8B;&#x3002;&#x4E00;&#x53E5;&#x8BDD;&#xFF0C;&#x4F60;&#x4E0D;&#x4F1A;&#x6709;&#x65F6;&#x95F4;&#x5B66;&#x5230;&#x592A;&#x591A;&#x4E1C;&#x897F;&#x3002;&#x56E0;&#x6B64;&#x4ED6;&#x4EEC;&#x53EA;&#x80FD;&#x8C08;&#x8BBA;&#x4E00;&#x4E9B;&#x80A4;&#x6D45;&#x7684;&#x4E1C;&#x897F;&#xFF0C;&#x800C;&#x4E0D;&#x662F;&#x6DF1;&#x5165;&#x7684;&#x7406;&#x89E3;&#x3002;&#x6B63;&#x5982;&#x4E9A;&#x5386;&#x5C71;&#x5927;&#x6559;&#x7687;&#x6240;&#x8BF4;&#xFF0C;&#x6D45;&#x5C1D;&#x8F84;&#x6B62;&#x662F;&#x5371;&#x9669;&#x7684;&#x4E8B;&#x60C5;&#x3002;</li>
+<li><strong>C++&#xFF1A;</strong> &#x5728; 24&#x5C0F;&#x65F6;&#x7684;&#x65F6;&#x95F4;&#x91CC;&#xFF0C;&#x4F60;&#x53EF;&#x80FD;&#x5B66;&#x4F1A; C++ &#x7684;&#x8BED;&#x6CD5;&#xFF08;&#x5982;&#x679C;&#x4F60; &#x5DF2;&#x7ECF;&#x5B66;&#x8FC7;&#x7C7B;&#x4F3C;&#x7684;&#x8BED;&#x8A00;&#xFF09;&#xFF0C;&#x4F46;&#x4F60;&#x5B66;&#x4E0D;&#x5230;&#x66F4;&#x591A;&#x7684;&#x5982;&#x4F55;&#x4F7F;&#x7528;&#x8FD9;&#x4E9B;&#x8BED;&#x6CD5;&#x7684;&#x77E5;&#x8BC6;&#x3002;&#x4E5F;&#x5C31;&#x662F;&#x8BF4;&#xFF0C; &#x5047;&#x5982;&#x4F60;&#x66FE;&#x662F;&#x4E2A; BASIC  &#x7A0B;&#x5E8F;&#x5458;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x5B66;&#x7740;&#x7528; C++ &#x8BED;&#x6CD5;&#x5199;&#x51FA; BASIC &#x98CE;&#x683C;&#x7684;&#x7A0B;&#x5E8F;&#xFF0C;&#x4F46;&#x4F60;&#x4E0D;&#x53EF;&#x80FD;&#x4E86;&#x89E3; C++ &#x771F;&#x6B63;&#x7684;&#x597D;&#x5904;&#xFF08;&#x548C;&#x574F;&#x5904;&#xFF09;&#x3002;&#x90A3;&#x4E48;&#x5173;&#x952E;&#x662F;&#x4EC0;&#x4E48;&#xFF1F; <strong>Alan Perlis</strong>&#x8BF4;&#x8FC7;&#xFF1A;&#x201C;&#x4E00;&#x79CD;&#x4E0D;&#x6539;&#x53D8;&#x4F60;&#x7F16;&#x7A0B;&#x7684;&#x601D;&#x7EF4;&#x65B9;&#x5F0F;&#x7684;&#x8BED;&#x8A00;&#xFF0C;&#x4E0D;&#x503C;&#x5F97;&#x53BB;&#x5B66;&#x3002;&#x201D; &#x4E00;&#x79CD;&#x53EF; &#x80FD;&#x7684;&#x60C5;&#x51B5;&#x662F;&#xFF1A;&#x4F60;&#x5FC5;&#x987B;&#x5B66;&#x4E00;&#x70B9;&#x513F; C++&#xFF08;&#x6216;&#x53EF;&#x80FD;&#x6027;&#x66F4;&#x5927;&#x7684;&#x50CF; JavaScript &#x6216; Processing &#x4E4B;&#x7C7B;&#xFF09;&#xFF0C;&#x56E0;&#x4E3A;&#x4F60;&#x4E3A;&#x4E86;&#x5B8C;&#x6210;&#x67D0;&#x79CD;&#x7279;&#x5B9A;&#x7684;&#x4EFB;&#x52A1;&#xFF0C;&#x9700;&#x8981;&#x4E0E;&#x4E00;&#x4E2A;&#x73B0;&#x5B58;&#x7684;&#x5DE5;&#x5177;&#x5EFA;&#x7ACB;&#x63A5;&#x53E3;&#x3002;&#x4E0D;&#x8FC7;&#x90A3;&#x4E0D;&#x662F;&#x5B66;&#x4E60;&#x5982;&#x4F55;&#x7F16;&#x7A0B;&#xFF0C;&#x800C;&#x662F;&#x5728;&#x5B66;&#x4E60;&#x5982;&#x4F55;&#x5B8C;&#x6210;&#x90A3;&#x4E2A;&#x4EFB;&#x52A1;&#x3002;</li>
+<li><strong>24 &#x5C0F;&#x65F6;&#x5185;&#xFF1A;</strong> &#x5F88;&#x4E0D;&#x5E78;&#xFF0C;&#x8FD9;&#x4E0D;&#x591F;&#xFF0C;&#x539F;&#x56E0;&#x7531;&#x4E0B;&#x4E00;&#x8282;&#x544A;&#x8BC9;&#x6211;&#x4EEC;&#x3002;</li>
+</ul>
+<h3 id="&#x5728;&#x5341;&#x5E74;&#x91CC;&#x5B66;&#x4F1A;&#x7F16;&#x7A0B;">&#x5728;&#x5341;&#x5E74;&#x91CC;&#x5B66;&#x4F1A;&#x7F16;&#x7A0B;</h3>
+<p>&#x7814;&#x7A76;&#x4EBA;&#x5458;&#x5728;&#x4E00;&#x7CFB;&#x5217;&#x8C03;&#x67E5;&#x663E;&#x793A;&#xFF0C;&#x5728;&#x5404;&#x4E2A;&#x9886;&#x57DF;&#x5185;&#xFF0C;&#x8981;&#x60F3;&#x83B7;&#x5F97;&#x4E13;&#x4E1A;&#x7EA7;&#x522B;&#x7684;&#x6C34;&#x5E73;&#xFF0C;&#x5927;&#x7EA6;&#x9700;&#x8981; 10 &#x5E74;&#x65F6;&#x95F4;&#x7684;&#x52AA;&#x529B;&#x3002;&#x53C2;&#x4E0E;&#x6B64;&#x9879;&#x8C03;&#x67E5;&#x7684;&#x9886;&#x57DF;&#x5305;&#x62EC;&#xFF1A;&#x56FD;&#x9645;&#x8C61;&#x68CB;&#xFF0C;&#x4F5C;&#x66F2;&#xFF0C;&#x53D1;&#x62A5;&#xFF0C;&#x7ED8;&#x753B;&#xFF0C;&#x94A2;&#x7434;&#x6F14;&#x594F;&#xFF0C;&#x6E38;&#x6CF3;&#xFF0C;&#x7F51;&#x7403;&#x4EE5;&#x53CA;&#x5BF9;&#x795E;&#x7ECF;&#x5FC3;&#x7406;&#x5B66;&#x548C;&#x62D3;&#x6251;&#x5B66;&#x7684;&#x7814;&#x7A76;&#x3002;&#x82E5;&#x8981;&#x5728;&#x67D0;&#x4E00;&#x9886;&#x57DF;&#x5185;&#x8FBE;&#x5230;&#x4E13;&#x5BB6;&#x7EA7;&#x7684;&#x6C34;&#x5E73;&#xFF0C;&#x5176;&#x5173;&#x952E;&#x5728;&#x4E8E;&#x201C;<em>&#x523B;&#x610F;</em>&#x7EC3;&#x4E60;&#x201D;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x8BF4;&#xFF0C;&#x5E76;&#x975E;&#x662F;&#x673A;&#x68B0;&#x5730;&#xFF0C;&#x4E00;&#x904D;&#x53C8;&#x4E00;&#x904D;&#x5730;&#x7EC3;&#x4E60;&#xFF0C;&#x800C;&#x662F;&#x8981;&#x4E0D;&#x65AD;&#x5730;&#x6311;&#x6218;&#x81EA;&#x6211;&#xFF0C;&#x8BD5;&#x56FE;&#x8D85;&#x8D8A;&#x81EA;&#x8EAB;&#x5F53;&#x524D;&#x7684;&#x6C34;&#x5E73;&#xFF0C;&#x901A;&#x8FC7;&#x4E0D;&#x65AD;&#x7684;&#x5C1D;&#x8BD5;&#x6311;&#x6218;&#xFF0C;&#x5E76;&#x5728;&#x5C1D;&#x8BD5;&#x7684;&#x8FC7;&#x7A0B;&#x4E2D;&#x548C;&#x5C1D;&#x8BD5;&#x4E4B;&#x540E;&#x5BF9;&#x81EA;&#x8EAB;&#x7684;&#x8868;&#x73B0;&#x8FDB;&#x884C;&#x5206;&#x6790;&#x548C;&#x603B;&#x7ED3;&#xFF0C;&#x5438;&#x53D6;&#x7ECF;&#x9A8C;&#xFF0C;&#x7EA0;&#x6B63;&#x4E4B;&#x524D;&#x72AF;&#x8FC7;&#x7684;&#x5404;&#x79CD;&#x9519;&#x8BEF;&#x3002;&#x628A;&#x8FD9;&#x4E00;&#x8FC7;&#x7A0B;&#x4E0D;&#x65AD;&#x91CD;&#x590D;&#xFF0C;&#x624D;&#x80FD;&#x53D6;&#x5F97;&#x6210;&#x529F;&#x3002;&#x6240;&#x8C13;&#x7684;&#x201C;&#x6377;&#x5F84;&#x201D;&#x662F;&#x4E0D;&#x5B58;&#x5728;&#x7684;&#xFF0C;&#x5373;&#x4F7F;&#x5BF9;&#x4E8E;&#x83AB;&#x624E;&#x7279;&#x8FD9;&#x79CD;&#x5929;&#x624D;&#x6765;&#x8BF4;&#xFF0C;&#x4E5F;&#x6CA1;&#x6709;&#x6377;&#x5F84;&#x53EF;&#x8D70;&#xFF0C;&#x5C3D;&#x7BA1; 4 &#x5C81;&#x5C31;&#x5F00;&#x59CB;&#x4F5C;&#x66F2;&#xFF0C;&#x53EF;&#x662F;&#x4ED6;&#x4E5F;&#x82B1;&#x4E86; 13 &#x5E74;&#x7684;&#x65F6;&#x95F4;&#xFF0C;&#x624D;&#x771F;&#x6B63;&#x5730;&#x5199;&#x51FA;&#x4E86;&#x4E16;&#x754C;&#x7EA7;&#x7684;&#x4F5C;&#x54C1;&#x3002;&#x518D;&#x4E3E;&#x4E00;&#x4E2A;&#x4F8B;&#x5B50;&#xFF0C;&#x7532;&#x58F3;&#x866B;&#x4E50;&#x961F;&#xFF08;<strong>The Beatles</strong>&#xFF09;,&#x4ED6;&#x4EEC;&#x4F3C;&#x4E4E;&#x5728; 1964 &#x5E74;&#x51ED;&#x501F;&#x4E00;&#x7CFB;&#x5217;&#x70ED;&#x95E8;&#x5355;&#x66F2;&#x548C;&#x5176;&#x5728;&#x827E;&#x5FB7;&#x6C99;&#x5229;&#x6587;&#x79C0;&#xFF08;The Ed Sullivan show&#xFF09;&#x4E0A;&#x7684;&#x6F14;&#x51FA;&#x4E00;&#x70AE;&#x800C;&#x7EA2;&#xFF0C;&#x4F46;&#x662F;&#x4F60;&#x4E5F;&#x8BB8;&#x4E0D;&#x77E5;&#x9053;&#xFF0C;&#x4ED6;&#x4EEC;&#x65E9;&#x5728; 1957 &#x5E74;&#x5C31;&#x5728;&#x5229;&#x7269;&#x6D66;&#x548C;&#x6C49;&#x5821;&#x4E24;&#x5730;&#x8FDB;&#x884C;&#x5C0F;&#x89C4;&#x6A21;&#x6F14;&#x51FA;&#x4E86;&#xFF0C;&#x800C;&#x5728;&#x6B64;&#x4E4B;&#x524D;&#x7684;&#x975E;&#x6B63;&#x5F0F;&#x6F14;&#x51FA;&#x66F4;&#x662F;&#x4E0D;&#x8BA1;&#x5176;&#x6570;&#x3002;&#x7532;&#x58F3;&#x866B;&#x4E50;&#x961F;&#x7684;&#x4E3B;&#x8981;&#x6210;&#x540D;&#x66F2;&#x300A;<em>Sgt. Peppers</em>&#x300B;&#xFF0C;&#x5219;&#x662F; 1967 &#x5E74;&#x624D;&#x53D1;&#x884C;&#x7684;&#x3002;</p>
+<p><strong>Malcolm Gladwell</strong>&#x63A8;&#x5E7F;&#x4E86;&#x8FD9;&#x4E2A;&#x7406;&#x5FF5;&#xFF0C;&#x5C3D;&#x7BA1;&#x4ED6;&#x7684;&#x91CD;&#x70B9;&#x5728; 10000 &#x4E2A;&#x5C0F;&#x65F6;&#x800C;&#x4E0D;&#x662F; 10 &#x5E74;&#x3002;Henri Cartier-Bresson(1908-2004)&#x8BF4;&#x8FC7;&#xFF0C;&#x201C;&#x4F60;&#x6240;&#x62CD;&#x6444;&#x7684;&#x5934; 10000 &#x5F20;&#x7167;&#x7247;&#x90FD;&#x662F;&#x6700;&#x7CDF;&#x7CD5;&#x7684;&#x201D;&#x3002;&#xFF08;&#x4ED6;&#x6CA1;&#x6709;&#x9884;&#x6599;&#x5230;&#xFF0C;&#x6709;&#x4E86;&#x6570;&#x7801;&#x76F8;&#x673A;&#x540E;&#xFF0C;&#x6709;&#x4E9B;&#x4EBA;&#x53EF;&#x4EE5;&#x5728;&#x4E00;&#x5468;&#x5185;&#x8FBE;&#x5230;&#x8FD9;&#x4E2A;&#x6570;&#x91CF;~&#xFF09;&#x771F;&#x6B63;&#x7684;&#x4E13;&#x4E1A;&#x6216;&#x8BB8;&#x9700;&#x8981;&#x82B1;&#x8D39;&#x4E00;&#x751F;&#x7684;&#x65F6;&#x95F4;&#x3002;Samuel Johnson (&#x585E;&#x7F2A;&#x5C14; &#x7EA6;&#x7FF0;&#x900A; 1709-1784)&#x8BF4;&#xFF1A;&#x201C;&#x5728;&#x4EFB;&#x4F55;&#x4E00;&#x4E2A;&#x9886;&#x57DF;&#x8981;&#x60F3;&#x505A;&#x5230;&#x6781;&#x597D;,&#x52BF;&#x5FC5;&#x7A77;&#x5C3D;&#x4E00;&#x751F;&#x7684;&#x7CBE;&#x529B;&#xFF0C;&#x5426;&#x5219;&#x6839;&#x672C;&#x65E0;&#x6CD5;&#x4F01;&#x53CA;&#x3002;&#x201D; Chaucer (&#x4E54;&#x53DF; 1340-1400)&#x4E5F;&#x53D1;&#x51FA;&#x8FC7;&#x201C;&#x751F;&#x547D;&#x5982;&#x6B64;&#x77ED;&#x6682;&#xFF0C;&#x6280;&#x80FD;&#x5982;&#x6B64;&#x9AD8;&#x6DF1;&#x201D;&#x7684;&#x611F;&#x53F9;&#x3002;Hippocrates (&#x5E0C;&#x6CE2;&#x514B;&#x62C9;&#x5E95;&#xFF0C;&#x7EA6; 400BC)&#x56E0;&#x5199;&#x4E0B;&#x4E86;&#x5982;&#x4E0B;&#x7684;&#x53E5;&#x5B50;&#x800C;&#x88AB;&#x4EBA;&#x79F0;&#x9882;&#xFF1A;&#x201C;ars longa, vita brevis&#x201D;&#xFF0C;&#x8BE5;&#x53E5;&#x662F;&#x6765;&#x81EA;&#x4E8E;&#x4E00;&#x4E2A;&#x66F4;&#x957F;&#x7684;&#x5F15;&#x7528;&#xFF1A;&#x201D;Ars longa, vita brevis, occasio praeceps, experimentum periculosum, iudicium difficile&#x201D;, &#x8FD9;&#x6BB5;&#x8BDD;&#xFF08;&#x62C9;&#x4E01;&#x6587;&#xFF09;&#x7FFB;&#x8BD1;&#x6210;&#x82F1;&#x8BED;&#x5C31;&#x662F;&#xFF1A;&#x201C;<strong>&#x751F;&#x547D;&#x5F88;&#x77ED;&#x6682;&#xFF0C;&#x4F46;&#x662F;&#x6280;&#x827A;&#x5374;&#x5F88;&#x9AD8;&#x6DF1;&#xFF0C;&#x673A;&#x9047;&#x8F6C;&#x77AC;&#x5373;&#x901D;&#xFF0C;&#x63A2;&#x7D22;&#x96BE;&#x4EE5;&#x6349;&#x6478;&#xFF0C;&#x6289;&#x62E9;&#x56F0;&#x96BE;&#x91CD;&#x91CD;</strong>&#x201D;&#x3002;</p>
+<p>&#x663E;&#x7136;&#xFF0C;&#x6CA1;&#x6709;&#x4E00;&#x4E2A;&#x5355;&#x4E00;&#x7684;&#x6570;&#x5B57;&#x53EF;&#x4EE5;&#x4F5C;&#x4E3A;&#x6700;&#x7EC8;&#x7684;&#x56DE;&#x7B54;&#xFF1A;&#x5047;&#x5B9A;&#x6240;&#x6709;&#x6280;&#x80FD;&#xFF08;&#x6BD4;&#x5982;&#x7F16;&#x7A0B;&#xFF0C;&#x56FD;&#x9645;&#x8C61;&#x68CB;&#xFF0C;&#x8DF3;&#x68CB;&#xFF0C;&#x97F3;&#x4E50;&#xFF09;&#x90FD;&#x9700;&#x8981;&#x76F8;&#x540C;&#x7684;&#x65F6;&#x95F4;&#x6765;&#x6210;&#x4E3A;&#x4E13;&#x5BB6;&#x6216;&#x8005;&#x5047;&#x5B9A;&#x4EFB;&#x4F55;&#x4EBA;&#x90FD;&#x9700;&#x8981;&#x4E00;&#x6837;&#x7684;&#x65F6;&#x95F4;&#x662F;&#x6CA1;&#x7406;&#x7531;&#x7684;&#x3002;&#x6B63;&#x5982;<strong>K. Anders Ericsson</strong>&#x6559;&#x6388;&#x6240;&#x6307;&#x51FA;&#x7684;&#x90A3;&#x6837;&#xFF1A;&#x201C;&#x5728;&#x7EDD;&#x5927;&#x591A;&#x6570;&#x9886;&#x57DF;&#xFF0C;&#x54EA;&#x6015;&#x662F;&#x6700;&#x6709;&#x5929;&#x5206;&#x7684;&#x4E2A;&#x4EBA;&#xFF0C;&#x4ED6;&#x4EEC;&#x8FBE;&#x5230;&#x6700;&#x9AD8;&#x6C34;&#x5E73;&#x6240;&#x8017;&#x8D39;&#x7684;&#x65F6;&#x95F4;&#x4E5F;&#x662F;&#x6781;&#x4E3A;&#x663E;&#x8457;&#x7684;&#x3002;10000 &#x5C0F;&#x65F6;&#x8FD9;&#x4E2A;&#x6570;&#x5B57;&#x53EA;&#x662F;&#x60F3;&#x8BA9;&#x4F60;&#x610F;&#x8BC6;&#x5230;&#x5373;&#x4FBF;&#x662F;&#x4EBA;&#x4EEC;&#x53E3;&#x4E2D;&#x7684;&#x90A3;&#x4E9B;&#x6700;&#x5177;&#x5929;&#x8D4B;&#x7684;&#x4E2A;&#x4F53;&#x60F3;&#x8FBE;&#x5230;&#x6700;&#x9AD8;&#x6C34;&#x5E73;&#x4E5F;&#x9700;&#x8981;&#x5E74;&#x590D;&#x4E00;&#x5E74;&#x7684;&#x6BCF;&#x5468;&#x82B1;&#x4E0A; 10 &#x5230; 20 &#x5C0F;&#x65F6;&#x3002;&#x201D;</p>
+<h3 id="&#x4F60;&#x60F3;&#x5F53;&#x7A0B;&#x5E8F;&#x5458;&#x4E48;&#xFF1F;">&#x4F60;&#x60F3;&#x5F53;&#x7A0B;&#x5E8F;&#x5458;&#x4E48;&#xFF1F;</h3>
+<p>&#x8FD9;&#x662F;&#x6211;&#x4E3A;&#x7F16;&#x7A0B;&#x6210;&#x529F;&#x5F00;&#x51FA;&#x7684;&#x65B9;&#x5B50;&#xFF1A;</p>
+<ul>
+<li><strong>&#x5BF9;&#x7F16;&#x7A0B;&#x611F;&#x5174;&#x8DA3;</strong>&#xFF0C;&#x5E76;&#x4E14;&#x56E0;&#x4E3A;&#x5B83;&#x6709;&#x8DA3;&#x800C;&#x7F16;&#x4E00;&#x4E9B;&#x7A0B;&#x5E8F;&#x3002;&#x786E;&#x4FDD;&#x7F16;&#x7A0B;&#x4E00;&#x76F4;&#x5145;&#x6EE1;&#x8DB3;&#x591F;&#x4E50;&#x8DA3;&#xFF0C;&#x8FD9;&#x6837;&#x4F60;&#x624D;&#x613F;&#x610F;&#x6295;&#x5165;&#x5341;&#x5E74;/10000 &#x5C0F;&#x65F6;&#x5B9D;&#x8D35;&#x65F6;&#x95F4;&#x3002;</li>
+<li><strong>&#x5199;&#x7A0B;&#x5E8F;</strong>&#x3002; &#x6700;&#x597D;&#x7684;&#x5B66;&#x4E60;&#x65B9;&#x5F0F;&#x662F;&#x4ECE;&#x5B9E;&#x8DF5;&#x4E2D;&#x5B66;&#x4E60;&#x3002; &#x7528;&#x66F4;&#x6280;&#x672F;&#x6027;&#x7684;&#x8BDD;&#x8BF4;&#xFF0C;&#x201C;&#x5728;&#x4E00;&#x4E2A;&#x7ED9;&#x5B9A;&#x7684;&#x9886;&#x57DF;&#x5185;&#xFF0C;&#x4E2A;&#x4EBA;&#x7684;&#x6700;&#x5927;&#x80FD;&#x529B;&#x4E0D; &#x662F;&#x81EA;&#x52A8;&#x5730;&#x7531;&#x6269;&#x5C55;&#x4E86;&#x7684;&#x7ECF;&#x9A8C;&#x53D6;&#x5F97;&#x7684;&#xFF0C;&#x4F46;&#x5373;&#x4F7F;&#x662F;&#x9AD8;&#x5EA6;&#x6709;&#x7ECF;&#x9A8C;&#x7684;&#x4EBA;&#x4E5F;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x6709;&#x610F;&#x8BC6;&#x7684;&#x52AA;&#x529B;&#x6765;&#x63D0;&#x9AD8;&#x81EA;&#x5DF1;&#x7684;&#x80FD;&#x529B;&#x548C; &#x201C;&#x6700;&#x6709;&#x6548;&#x7684;&#x5B66;&#x4E60;&#x9700;&#x8981;&#x56E0;&#x4EBA;&#x800C;&#x5F02;&#x7684;&#x9002;&#x5F53;&#x96BE;&#x5EA6;&#xFF0C;&#x76EE;&#x6807;&#x660E;&#x786E;&#x7684;&#x4EFB;&#x52A1;&#xFF0C;&#x4E30;&#x5BCC;&#x7684;&#x4FE1;&#x606F;&#x53CD;&#x9988;&#xFF0C;&#x4EE5;&#x53CA;&#x91CD;&#x590D;&#x7684;&#x673A;&#x4F1A;&#x548C;&#x9519;&#x8BEF;&#x4FEE;&#x6B63;&#x3002;&#x201D;&#x6B64;&#x4E66; <em>Cognition in Practice: Mind&#xFF0C;Mathematics&#xFF0C;and Culture in Everyday Life</em> &#x662F;&#x9610;&#x660E;&#x6B64;&#x89C2;&#x70B9;&#x7684;&#x4EE4;&#x4EBA;&#x611F;&#x5174;&#x8DA3;&#x7684;&#x53C2;&#x8003;&#x6587;&#x732E;&#x3002;</li>
+<li>&#x4E0E;&#x5176;&#x4ED6;&#x7A0B;&#x5E8F;&#x5458;<strong>&#x4EA4;&#x6D41;</strong>&#xFF1B; &#x9605;&#x8BFB;&#x5176;&#x5B83;&#x7A0B;&#x5E8F;&#x3002;&#x8FD9;&#x6BD4;&#x4EFB;&#x4F55;&#x4E66;&#x672C;&#x6216;&#x8BAD;&#x7EC3;&#x8BFE;&#x7A0B;&#x90FD;&#x91CD;&#x8981;&#x3002;</li>
+<li>&#x5982;&#x679C;&#x613F;&#x610F;&#xFF0C;&#x5728;<strong>&#x5927;&#x5B66;</strong>&#x91CC;&#x5446;&#x4E0A; 4 &#x5E74;&#xFF08;&#x6216;&#x66F4;&#x957F;&#xFF0C;&#x5728;&#x7814;&#x7A76;&#x751F;&#x9662;&#x91CC;&#xFF09;&#x3002;&#x4F60;&#x4F1A;&#x63A5;&#x89E6;&#x5230;&#x4E00;&#x4E9B;&#x9700;&#x8981;&#x6587;&#x51ED;&#x7684;&#x5DE5;&#x4F5C;&#xFF0C;&#x4F60;&#x4F1A;&#x5BF9;&#x6B64;&#x9886;&#x57DF;&#x6709;&#x66F4;&#x6DF1;&#x7684;&#x7406;&#x89E3;&#x3002;&#x5982;&#x679C;&#x4F60;&#x4E0D;&#x559C;&#x6B22;&#x5B66;&#x6821;&#xFF0C; &#x4F60;&#x53EF;&#x4EE5;&#xFF08;&#x4F1A;&#x6709;&#x6240;&#x727A;&#x7272;&#xFF09;&#x4F9D;&#x9760;&#x81EA;&#x8EAB;&#x6216;&#x5728;&#x5DE5;&#x4F5C;&#x4E2D;&#x83B7;&#x5F97;&#x76F8;&#x4F3C;&#x7684;&#x7ECF;&#x9A8C;&#x3002;&#x5728;&#x4EFB;&#x4F55;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x5149;&#x5543;&#x4E66;&#x672C;&#x662F;&#x4E0D;&#x591F;&#x7684;&#x3002;Eric Raymond&#xFF0C;<em>The New Hacker&#x2019;s Dictionary</em> &#x4E00;&#x4E66;&#x7684;&#x4F5C;&#x8005;&#xFF0C;&#x8BF4;&#x8FC7;&#xFF0C;&#x201C;&#x8BA1;&#x7B97;&#x673A;&#x79D1;&#x5B66;&#x4E0D;&#x80FD;&#x628A;&#x4EFB;&#x4F55;&#x4EBA;&#x53D8;&#x6210;&#x7F16;&#x7A0B;&#x4E13;&#x5BB6;&#xFF0C;&#x5C31;&#x8C61;&#x5149;&#x7814;&#x7A76;&#x5237;&#x5B50;&#x548C;&#x989C;&#x6599;&#x4E0D;&#x4F1A;&#x4F7F;&#x4EBA;&#x53D8;&#x6210;&#x753B;&#x5BB6;&#x4E00;&#x6837;&#x3002;&#x201D; &#x6211;&#x96C7;&#x4F63;&#x8FC7;&#x7684;&#x6700;&#x597D;&#x7684;&#x7A0B;&#x5E8F;&#x5458;&#x4E4B;&#x4E00;&#x4EC5;&#x6709;&#x9AD8;&#x4E2D;&#x6587;&#x51ED;&#xFF1B;&#x4ED6;&#x505A;&#x51FA;&#x4E86;&#x8BB8;&#x591A;&#x4F18;&#x79C0;&#x7684;&#x8F6F;&#x4EF6;&#xFF0C;&#x6709;&#x4ED6;&#x81EA;&#x5DF1;&#x7684;&#x65B0;&#x95FB;&#x7EC4;&#xFF0C; &#x800C;&#x4E14;&#x901A;&#x8FC7;&#x80A1;&#x7968;&#x671F;&#x6743;&#x4E70;&#x5230;&#x4E86;&#x81EA;&#x5DF1;&#x7684;&#x591C;&#x603B;&#x4F1A;&#x3002;</li>
+<li>&#x548C;&#x5176;&#x4ED6;&#x7A0B;&#x5E8F;&#x5458;<strong>&#x4E00;&#x8D77;&#x505A;&#x9879;&#x76EE;</strong>&#x3002;&#x5728;&#x5176;&#x4E2D;&#x7684;&#x4E00;&#x4E9B;&#x9879;&#x76EE;&#x4E2D;&#x4F5C;&#x4E3A;&#x6700;&#x597D;&#x7684;&#x7A0B;&#x5E8F;&#x5458;&#xFF1B; &#x800C;&#x5728;&#x53E6;&#x4E00;&#x4E9B;&#x9879;&#x76EE;&#x4E2D;&#x662F;&#x6700;&#x5DEE;&#x7684;&#x3002;&#x5F53;&#x4F60;&#x662F;&#x6700;&#x597D;&#x7684;&#xFF0C;&#x4F60;&#x80FD;&#x6D4B;&#x8BD5;&#x9886;&#x5BFC;&#x9879;&#x76EE;&#x7684;&#x80FD;&#x529B;&#xFF0C;&#x7528;&#x4F60; &#x7684;&#x89C2;&#x70B9;&#x6FC0;&#x53D1;&#x522B;&#x4EBA;&#x3002;&#x5F53;&#x4F60;&#x662F;&#x6700;&#x5DEE;&#x7684;&#xFF0C;&#x4F60;&#x5B66;&#x4E60;&#x6770;&#x51FA;&#x8005;&#x662F;&#x600E;&#x4E48;&#x505A;&#x7684;&#xFF0C;&#x4E86;&#x89E3;&#x4ED6;&#x4EEC;&#x4E0D;&#x559C;&#x6B22;&#x505A; &#x4EC0;&#x4E48;&#xFF08;&#x56E0;&#x4E3A;&#x4ED6;&#x4EEC;&#x5429;&#x5490;&#x4F60;&#x505A;&#x4E8B;&#xFF09;&#x3002;</li>
+<li>&#x5728;&#x5176;&#x4ED6;&#x7A0B;&#x5E8F;&#x5458;<strong>&#x4E4B;&#x540E;&#x63A5;&#x624B;&#x9879;&#x76EE;</strong>&#x3002;&#x4F7F;&#x81EA;&#x5DF1;&#x7406;&#x89E3;&#x522B;&#x4EBA;&#x5199;&#x7684;&#x7A0B;&#x5E8F;&#x3002; &#x5F53;&#x7A0B;&#x5E8F;&#x7684;&#x539F;&#x4F5C;&#x8005;&#x4E0D;&#x5728;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x7814;&#x7A76;&#x4EC0;&#x4E48;&#x9700;&#x8981;&#x7406;&#x89E3;&#x5E76;&#x4E14;&#x4FEE;&#x6539;&#x5B83;&#x3002;&#x601D;&#x8003;&#x5982;&#x4F55;&#x8BBE;&#x8BA1;&#x4F60;&#x7684; &#x7A0B;&#x5E8F;&#x4EE5;&#x4FBF;&#x540E;&#x6765;&#x8005;&#x7684;&#x7EF4;&#x62A4;&#x3002;</li>
+<li>&#x5B66;&#x4E60;&#x81F3;&#x5C11;&#x534A;&#x6253;&#x7684;&#x7F16;&#x7A0B;&#x8BED;&#x8A00;&#x3002;&#x5305;&#x62EC;&#x4E00;&#x79CD;&#x652F;&#x6301;&#x7C7B;&#x62BD;&#x8C61;&#x7684;&#x8BED;&#x8A00;&#xFF08;&#x50CF; Java  &#x6216; C++&#xFF09;&#xFF0C;&#x4E00;&#x79CD;&#x652F;&#x6301;&#x51FD;&#x6570;&#x5316;&#x62BD;&#x8C61;&#x7684;&#x8BED;&#x8A00;&#xFF08;&#x50CF; Lisp &#x6216; ML &#x6216; Haskell&#xFF09;&#xFF0C;&#x4E00;&#x79CD;&#x652F;&#x6301;&#x8BED;&#x6CD5;&#x62BD;&#x8C61;&#x7684;&#x8BED;&#x8A00;&#xFF08;&#x50CF; Lisp&#xFF09;&#xFF0C;&#x4E00;&#x79CD;&#x652F;&#x6301;&#x58F0;&#x660E;&#x89C4;&#x683C;&#x8BF4;&#x660E;&#x7684;&#x8BED;&#x8A00;&#xFF08;&#x50CF; Prolog &#x6216; C++ &#x7684;&#x6A21;&#x677F;&#xFF09;&#xFF0C;&#x4EE5;&#x53CA;&#x90A3;&#x4E9B;&#x5F3A;&#x8C03;&#x5E76;&#x884C;&#x7684;&#x8BED;&#x8A00;&#xFF08;&#x50CF; Clojure &#x6216; Go&#xFF09;&#x3002;</li>
+<li>&#x8BF7;&#x8BB0;&#x4F4F;&#x201C;&#x8BA1;&#x7B97;&#x673A;&#x79D1;&#x5B66;&#x201D;&#x4E2D;&#x6709;&#x201C;<strong>&#x8BA1;&#x7B97;&#x673A;</strong>&#x201D;&#x4E00;&#x8BCD;&#x3002;&#x4E86;&#x89E3;&#x4F60;&#x7684;&#x8BA1;&#x7B97;&#x673A;&#x8981;&#x82B1;&#x591A; &#x957F;&#x65F6;&#x95F4;&#x6267;&#x884C;&#x4E00;&#x6761;&#x6307;&#x4EE4;&#xFF0C;&#x4ECE;&#x5185;&#x5B58;&#x4E2D;&#x53D6;&#x4E00;&#x4E2A;&#x5B57;&#xFF08;&#x6709;cache&#xFF09;&#xFF0C;&#x4ECE;&#x78C1;&#x76D8;&#x4E2D;&#x8BFB;&#x53D6;&#x8FDE;&#x7EED;&#x7684;&#x5B57;&#xFF0C; &#x548C;&#x5728;&#x78C1;&#x76D8;&#x4E2D;&#x627E;&#x5230;&#x65B0;&#x7684;&#x4F4D;&#x7F6E;&#x3002;</li>
+<li>&#x53C2;&#x4E0E;&#x4E00;&#x79CD;&#x8BED;&#x8A00;<strong>&#x6807;&#x51C6;&#x5316;</strong>&#x7684;&#x5DE5;&#x4F5C;&#x3002;&#x5B83;&#x53EF;&#x4EE5;&#x662F; ANSI C++ &#x59D4;&#x5458;&#x4F1A;&#xFF0C; &#x4E5F;&#x53EF;&#x4EE5;&#x662F;&#x51B3;&#x5B9A;&#x4F60;&#x5468;&#x56F4;&#x5C0F;&#x8303;&#x56F4;&#x5185;&#x7684;&#x7F16;&#x7A0B;&#x98CE;&#x683C;&#x662F;&#x5E94;&#x8BE5;&#x4E24;&#x4E2A;&#x8FD8;&#x662F;&#x56DB;&#x4E2A;&#x7A7A;&#x683C;&#x7F29;&#x8FDB;&#x3002;&#x901A;&#x8FC7;&#x4EFB;&#x4F55;&#x4E00;&#x79CD;&#x65B9;&#x5F0F;&#xFF0C;&#x4F60;&#x4E86;&#x89E3;&#x5230;&#x5176;&#x4ED6;&#x4EBA;&#x5728;&#x67D0;&#x79CD;&#x8BED;&#x8A00;&#x4E2D;&#x7684;&#x60F3;&#x6CD5;&#xFF0C;&#x4ED6;&#x4EEC;&#x7684;&#x7406;&#x89E3;&#x6DF1;&#x5EA6;&#xFF0C;&#x751A;&#x81F3;&#x4E00;&#x4E9B;&#x4ED6;&#x4EEC;&#x8FD9;&#x6837;&#x60F3;&#x7684;&#x539F;&#x56E0;&#x3002;</li>
+<li>&#x5177;&#x5907;&#x826F;&#x597D;&#x7684;&#x5224;&#x65AD;&#x529B;&#xFF0C;&#x80FD;&#x5C3D;&#x5FEB;&#x5730;&#x4ECE;&#x8BED;&#x8A00;&#x6807;&#x51C6;&#x5316;&#x7684;&#x7EA0;&#x7F20;&#x4E2D;<strong>&#x8131;&#x8EAB;</strong>&#x3002;</li>
+</ul>
+<p>&#x660E;&#x767D;&#x4E86;&#x8FD9;&#x4E9B;&#xFF0C;&#x4EC5;&#x4ECE;&#x4E66;&#x672C;&#x4E2D;&#x4F60;&#x80FD;&#x5F97;&#x5230;&#x591A;&#x5C11;&#x5C31;&#x6210;&#x4E86;&#x4E00;&#x4E2A;&#x95EE;&#x9898;&#x3002;&#x5728;&#x6211;&#x7B2C;&#x4E00;&#x4E2A;&#x5B69;&#x5B50;&#x51FA;&#x751F;&#x524D;&#xFF0C; &#x6211;&#x8BFB;&#x4E86;&#x6240;&#x6709;&#x7684;&#xFF08;&#x5173;&#x4E8E;&#x80B2;&#x513F;&#x7684;&#xFF09;<em>How to</em> &#x4E66;&#x7C4D;&#xFF0C;&#x4ECD;&#x7136;&#x611F;&#x89C9;&#x662F;&#x4E2A;&#x624B;&#x8DB3;&#x65E0;&#x63AA;&#x7684;&#x65B0;&#x624B;&#x3002;30 &#x4E2A;&#x6708;&#x4EE5;&#x540E;&#xFF0C;&#x6211; &#x7684;&#x7B2C;&#x4E8C;&#x4E2A;&#x5B69;&#x5B50;&#x5FEB;&#x8981;&#x51FA;&#x751F;&#x4E86;&#xFF0C;&#x6211;&#x56DE;&#x5934;&#x6E29;&#x4E60;&#x8FD9;&#x4E9B;&#x4E66;&#x4E86;&#x5417;&#xFF1F; &#x6CA1;&#x6709;&#x3002;&#x76F8;&#x53CD;&#xFF0C;&#x6211;&#x4F9D;&#x9760;&#x6211;&#x7684;&#x4E2A;&#x4EBA; &#x7ECF;&#x9A8C;&#xFF0C;&#x5B83;&#x6BD4;&#x4E13;&#x5BB6;&#x5199;&#x7684;&#x6570;&#x5343;&#x9875;&#x4E66;&#x66F4;&#x6709;&#x7528;&#x548C;&#x53EF;&#x9760;&#x3002;</p>
+<p>Fred Brooks&#x5728;&#x4ED6;&#x7684;&#x968F;&#x7B14;&#x300A;<strong>No Silver Bullet</strong>&#x300B; &#x4E2D;&#x5B9A;&#x51FA;&#x4E86;&#x4E00;&#x4E2A;&#x5BFB;&#x627E;&#x4F18;&#x79C0;&#x8F6F;&#x4EF6;&#x8BBE;&#x8BA1;&#x8005;&#x7684;&#x4E09;&#x6B65;&#x8BA1;&#x5212;&#xFF1A;</p>
+<ol>
+<li>&#x5C3D;&#x53EF;&#x80FD;&#x65E9;&#x5730;&#xFF0C;&#x6709;&#x7CFB;&#x7EDF;&#x5730;&#x8BC6;&#x522B;&#x9876;&#x7EA7;&#x7684;&#x8BBE;&#x8BA1;&#x4EBA;&#x5458;&#x3002;</li>
+<li>&#x4E3A;&#x8BBE;&#x8BA1;&#x4EBA;&#x5458;&#x6307;&#x6D3E;&#x4E00;&#x4F4D;&#x804C;&#x4E1A;&#x5BFC;&#x5E08;&#xFF0C;&#x8D1F;&#x8D23;&#x4ED6;&#x4EEC;&#x6280;&#x672F;&#x65B9;&#x9762;&#x7684;&#x6210;&#x957F;&#xFF0C;&#x4ED4;&#x7EC6;&#x5730;&#x4E3A;&#x4ED6;&#x4EEC;&#x89C4;&#x5212; &#x804C;&#x4E1A;&#x751F;&#x6DAF;&#x3002;</li>
+<li>&#x4E3A;&#x6210;&#x957F;&#x4E2D;&#x7684;&#x8BBE;&#x8BA1;&#x4EBA;&#x5458;&#x63D0;&#x4F9B;&#x76F8;&#x4E92;&#x4EA4;&#x6D41;&#x548C;&#x5B66;&#x4E60;&#x7684;&#x673A;&#x4F1A;&#x3002;</li>
+</ol>
+<p>&#x6B64;&#x8BA1;&#x5212;&#x5047;&#x8BBE;&#x67D0;&#x4E9B;&#x4EBA;&#x5DF2;&#x7ECF;&#x5177;&#x5907;&#x4E86;&#x6770;&#x51FA;&#x8BBE;&#x8BA1;&#x8005;&#x7684;&#x5FC5;&#x8981;&#x624D;&#x80FD;&#xFF1B; &#x8981;&#x505A;&#x7684;&#x53EA;&#x662F;&#x5982;&#x4F55;&#x6070;&#x5F53;&#x5730;&#x8BF1;&#x5BFC;&#x4ED6;&#x4EEC;&#x3002; <strong>Alan Perlis</strong>&#x8BF4;&#x5F97;&#x66F4;&#x7B80;&#x660E;&#x627C;&#x8981;&#xFF1A;&#x201C;&#x6BCF;&#x4E2A;&#x4EBA;&#x90FD;&#x80FD;&#x88AB;&#x6559;&#x4F1A;&#x96D5;&#x523B;&#xFF1A;&#x5BF9;&#x7C73;&#x5F00;&#x6717;&#x5176;&#x7F57;&#x800C;&#x8A00;&#xFF0C; &#x53CD;&#x5012;&#x662F;&#x544A;&#x8BC9;&#x4ED6;&#x54EA;&#x4E9B;&#x4E8B;&#x4E0D;&#x8981;&#x505A;&#x3002;&#x540C;&#x6837;&#x7684;&#x9053;&#x7406;&#x4E5F;&#x9002;&#x7528;&#x4E8E;&#x4F18;&#x79C0;&#x7684;&#x7A0B;&#x5E8F;&#x5458;&#x3002;&#x201D;</p>
+<p>Perlis &#x8BA4;&#x4E3A;&#xFF0C;&#x4F1F;&#x5927;&#x7684;&#x8F6F;&#x4EF6;&#x5F00;&#x53D1;&#x4EBA;&#x5458;&#x90FD;&#x6709;&#x4E00;&#x79CD;&#x5185;&#x5728;&#x7684;&#x7279;&#x8D28;&#xFF0C;&#x8FD9;&#x79CD;&#x7279;&#x8D28;&#x5F80;&#x5F80;&#x6BD4;&#x4ED6;&#x4EEC;&#x6240;&#x63A5;&#x53D7;&#x7684;&#x8BAD;&#x7EC3;&#x66F4;&#x91CD;&#x8981;&#x3002;&#x4F46;&#x662F;&#x8FD9;&#x4E9B;&#x7279;&#x8D28;&#x662F;&#x4ECE;&#x54EA;&#x91CC;&#x6765;&#x7684;&#x5462;&#xFF1F;&#x662F;&#x4E0E;&#x751F;&#x4FF1;&#x6765;&#x7684;&#xFF1F;&#x8FD8;&#x662F;&#x901A;&#x8FC7;&#x540E;&#x5929;&#x52E4;&#x594B;&#x800C;&#x6765;&#xFF1F;&#x6B63;&#x5982; Auguste Gusteau&#xFF08;&#x52A8;&#x753B;&#x7535;&#x5F71;&#x300A;&#x6599;&#x7406;&#x9F20;&#x738B;&#x300B;&#x91CC;&#x7684;&#x5E7B;&#x8C61;&#x5927;&#x53A8;&#xFF09;&#x6240;&#x8BF4;&#xFF0C;&#x201C;&#x8C01;&#x90FD;&#x80FD;&#x505A;&#x996D;&#xFF0C;&#x4F46;&#x53EA;&#x6709;&#x90A3;&#x4E9B;&#x65E0;&#x6240;&#x754F;&#x60E7;&#x7684;&#x4EBA;&#x624D;&#x80FD;&#x6210;&#x4E3A;&#x5927;&#x53A8;&#xFF01;&#x201D;&#x6211;&#x628A;&#x201C;&#x5C06;&#x4F60;&#x751F;&#x547D;&#x4E2D;&#x7684;&#x5927;&#x90E8;&#x5206;&#x65F6;&#x95F4;&#x82B1;&#x5728;&#x523B;&#x610F;&#x7EC3;&#x4E60;&#x4E0A;&#x201D;&#x66F4;&#x591A;&#x89C6;&#x4F5C;&#x4E3A;&#x4E00;&#x79CD;&#x81EA;&#x613F;&#xFF01;&#x4F46;&#x6216;&#x8BB8;&#x201C;&#x65E0;&#x6240;&#x754F;&#x60E7;&#x201D;&#x624D;&#x662F;&#x6982;&#x62EC;&#x5B83;&#x7684;&#x65B9;&#x5F0F;&#x3002;&#x6216;&#x8005;&#xFF0C;&#x5C31;&#x50CF;&#x662F;&#x300A;&#x6599;&#x7406;&#x9F20;&#x738B;&#x300B;&#x91CC;&#x90A3;&#x4E2A;&#x4E0E; Gusteau &#x4F5C;&#x5BF9;&#x7684;&#x523B;&#x8584;&#x7684;&#x7F8E;&#x98DF;&#x8BC4;&#x8BBA;&#x5BB6; Anton Ego &#x8BF4;&#x7684;&#x90A3;&#x6837;&#xFF1A;&#x201C;&#x4E0D;&#x662F;&#x4EFB;&#x4F55;&#x4EBA;&#x90FD;&#x80FD;&#x6210;&#x4E3A;&#x4F1F;&#x5927;&#x7684;&#x827A;&#x672F;&#x5BB6;&#xFF0C;&#x4E0D;&#x8FC7;&#xFF0C;&#x4F1F;&#x5927;&#x7684;&#x827A;&#x672F;&#x5BB6;&#x53EF;&#x4EE5;&#x6765;&#x81EA;&#x4EFB;&#x4F55;&#x5730;&#x65B9;&#x3002;&#x201D;</p>
+<p>&#x6240;&#x4EE5;&#x5C3D;&#x7BA1;&#x4E70;&#x672C; Java/Ruby/Javascript/PHP &#x7684;&#x4E66;&#x5427;&#x3002;&#x4F60;&#x53EF;&#x80FD;&#x4F1A;&#x4ECE;&#x4E2D;&#x5B66;&#x5230;&#x70B9;&#x513F;&#x4E1C;&#x897F;&#x3002;&#x4F46;&#x4F5C;&#x4E3A;&#x4E00;&#x4E2A;&#x7A0B;&#x5E8F;&#x5458;&#xFF0C;&#x4F60;&#x4E0D;&#x4F1A;&#x5728; 21 &#x5929;&#x5185;&#x6216; 24 &#x5C0F;&#x65F6;&#x5185;&#x6539;&#x53D8;&#x4F60;&#x7684;&#x4EBA;&#x751F;&#xFF0C;&#x6216;&#x4F60;&#x5B9E;&#x9645;&#x7684;&#x6C34;&#x5E73;&#x3002;&#x4F60;&#x5C1D;&#x8BD5;&#x8FC7;&#x8FDE;&#x7EED; 24 &#x4E2A;&#x6708;&#x4E0D;&#x61C8;&#x52AA;&#x529B;&#x63D0;&#x9AD8;&#x81EA;&#x5DF1;&#x4E48;&#xFF1F;&#x5982;&#x679C;&#x4F60;&#x505A;&#x5230;&#x4E86;&#xFF0C;&#x597D;&#x5427;&#xFF0C;&#x90A3;&#x4E48;&#x4F60;&#x5F00;&#x59CB;&#x4E0A;&#x8DEF;&#x4E86;&#x3002;</p>
+<h3 id="why-is-everyone-in-such-a-rush">Why is everyone in such a rush?</h3>
+<blockquote>
+<p>Walk into any bookstore, and you&apos;ll see how to Teach Yourself Java in 24 Hours alongside endless variations offering to teach C, SQL, Ruby,Algorithms, and so on in a few days or hours. The Amazon advanced search for [title: teach, yourself, hours, since: <strong><em>2000 and found 512 such books</em></strong>. Of the top ten, nine are programming books (the other is about bookkeeping). Similar results come from replacing &quot;teach yourself&quot; with &quot;learn&quot; or &quot;hours&quot; with &quot;days.&quot; </p>
+</blockquote>
+<p>The conclusion is that either people are in a big rush to learn about programming, or that programming is somehow fabulously easier to learn than anything else. Felleisen et al. give a nod to this trend in their book How to Design Programs, when they say &quot;Bad programming is easy. Idiots can learn it in 21 days, even if they are dummies.&quot; The Abtruse Goose comic also had their take. </p>
+<p>Let&apos;s analyze what a title like Teach Yourself C++ in 24 Hours could mean: </p>
+<ul>
+<li><p><strong>Teach Yourself: In 24 hours you won&apos;t have time to write several significant programs, and learn from your successes and failures with them. You won&apos;t have time to work with an experienced programmer and understand what it is like to live in a C++ environment. In short, you won&apos;t have time to learn much. So the book can only be talking about a superficial familiarity, not a deep understanding. As Alexander Pope said, a little learning is a dangerous thing.</strong></p>
+</li>
+<li><p><strong>C++: In 24 hours you might be able to learn some of the syntax of C++ (if you already know another language), but you couldn&apos;t learn much about how to use the language. In short, if you were, say, a Basic programmer, you could learn to write programs in the style of Basic using C++ syntax, but you couldn&apos;t learn what C++ is actually good (and bad) for. So what&apos;s the point? Alan Perlis once said: &quot;A language that doesn&apos;t affect the way you think about programming, is not worth knowing&quot;. One possible point is that you have to learn a tiny bit of C++ (or more likely, something like JavaScript or Processing) because you need to interface with an existing tool to accomplish a specific task. But then you&apos;re not learning how to program; you&apos;re learning to accomplish that task.</strong></p>
+</li>
+<li><strong>in 24 Hours: Unfortunately, this is not enough, as the next section shows.</strong> </li>
+</ul>
+<h3 id="teach-yourself-programming-in-ten-years">Teach Yourself Programming in Ten Years</h3>
+<p>Researchers (Bloom (1985), Bryan &amp; Harter (1899), Hayes (1989), Simmon &amp; Chase (1973)) have shown it takes about ten years to develop expertise in any of a wide variety of areas, including chess playing, music composition, telegraph operation, painting, piano playing, swimming, tennis, and research in neuropsychology and topology. The key is deliberative practice: not just doing it again and again, but challenging yourself with a task that is just beyond your current ability, trying it, analyzing your performance while and after doing it, and correcting any mistakes. Then repeat. And repeat again. There appear to be no real shortcuts: even Mozart, who was a musical prodigy at age 4, took 13 more years before he began to produce world-class music. In another genre, the Beatles seemed to burst onto the scene with a string of #1 hits and an appearance on the Ed Sullivan show in 1964. But they had been playing small clubs in Liverpool and Hamburg since 1957, and while they had mass appeal early on, their first great critical success, Sgt. Peppers, was released in 1967. </p>
+<p>Malcolm Gladwell has popularized the idea, although he concentrates on 10,000 hours, not 10 years. Henri Cartier-Bresson (1908-2004) had another metric: &quot;Your first 10,000 photographs are your worst.&quot; (He didn&apos;t anticipate that with digital cameras, some people can reach that mark in a week.) True expertise may take a lifetime: Samuel Johnson (1709-1784) said &quot;Excellence in any department can be attained only by the labor of a lifetime; it is not to be purchased at a lesser price.&quot; And Chaucer (1340-1400) complained &quot;the lyf so short, the craft so long to lerne.&quot; Hippocrates (c. 400BC) is known for the excerpt &quot;ars longa, vita brevis&quot;, which is part of the longer quotation &quot;Arslonga, vita brevis, occasio praeceps, experimentum periculosum, iudicium difficile&quot;, which in English renders as &quot;Life is short, [the] craft long, opportunity fleeting, experiment treacherous, judgment difficult.&quot; Of course, no single number can be the final answer: it doesn&apos;t seem reasonable to assume that all skills (e.g., programming, chess playing, checkers playing, and music playing) could all require exactly the same amount of time to master, nor that all people will take exactly the same amount of time. As Prof. K. Anders Ericsson puts it, &quot;In most domains it&apos;s remarkable how much time even the most talented individuals need in order to reach the highest levels of performance. The 10,000 hour number just gives you a sense that we&apos;re talking years of 10 to 20 hours a week which those who some people would argue are the most innately talented individuals still need to get to the highest level.&quot;</p>
+<h3 id="so-you-want-to-be-a-programmer">So You Want to be a Programmer</h3>
+<p>Here&apos;s my recipe for programming success: </p>
+<ul>
+<li>Get <strong>interested</strong> in programming, and do some because it is fun. Make sure that it keeps being enough fun so that you will be willing to put in your ten years/10,000 hours.</li>
+<li><strong>Program</strong>. The best kind of learning is learning by doing. To put it more technically, &quot;the maximal level of performance for individuals in a given domain is not attained automatically as a function of extended experience, but the level of performance can be increased even by highly experienced individuals as a result of deliberate efforts to improve.&quot; (p. 366) and &quot;the most effective learning requires a well-defined task with an appropriate difficulty level for the particular individual, informative feedback, and opportunities for repetition and corrections of errors.&quot; (p. 20-21) The book Cognition in Practice: Mind, Mathematics, and Culture in Everyday Life is an interesting reference for this viewpoint.</li>
+<li><strong>Talk with other programmers; read other programs.</strong> This is more important than any book or training course.</li>
+<li>If you want, put in four years at a <strong>college</strong> (or more at a graduate school). This will give you access to some jobs that require credentials, and it will give you a deeper understanding of the field, but if you don&apos;t enjoy school, you can (with some dedication) get similar experience on your own or on the job. In any case, book learning alone won&apos;t be enough. &quot;Computer science education cannot make anybody an expert programmer any more than studying brushes and pigment can make somebody an expert painter&quot; says Eric Raymond, author of The New Hacker&apos;s Dictionary. One of the best programmers I ever hired had only a High School degree; he&apos;s produced a lot of great software, has his own news group, and made enough in stock options to buy his own nightclub.</li>
+<li><strong>Work on projects with other programmers.</strong> Be the best programmer on some projects; be the worst on some others. When you&apos;re the best, you get to test your abilities to lead a project, and to inspire others with your vision. When you&apos;re the worst, you learn what the masters do, and you learn what they don&apos;t like to do (because they make you do it for them).</li>
+<li><strong>Work on projects after other programmers.</strong> Understand a program written by someone else. See what it takes to understand and fix it when the original programmers are not around. Think about how to design your programs to make it easier for those who will maintain them after you.</li>
+<li><strong>Learn at least a half dozen programming languages.</strong> Include one language that emphasizes class abstractions (like Java or C++), one that emphasizes functional abstraction (like Lisp or ML or Haskell), one that supports syntactic abstraction (like Lisp), one that supports declarative specifications (like Prolog or C++ templates), and one that emphasizes parallelism (like Clojure or Go). </li>
+<li>Remember that there is a &quot;<strong>computer</strong>&quot; in &quot;computer science&quot;. Know how long it takes your computer to execute an instruction, fetch a word from memory (with and without a cache miss), read consecutive words from disk, and seek to a new location on disk. (Answers here.) </li>
+<li>Get involved in a language <strong>standardization</strong> effort. It could be the ANSI C++ committee, or it could be deciding if your local coding style will have 2 or 4 space indentation levels. Either way, you learn about what other people like in a language, how deeply they feel so, and perhaps even a little about why they feel so.</li>
+<li>Have the good sense to <strong>get off</strong> the language standardization effort as quickly as possible. </li>
+</ul>
+<p>With all that in mind, its questionable how far you can get just by book learning. Before my first child was born, I read all the How To books, and still felt like a clueless novice. 30 Months later, when my second child was due, did I go back to the books for a refresher? No. Instead, I relied on my personal experience, which turned out to be far more useful and reassuring to me than the thousands of pages written by experts. </p>
+<p>Fred Brooks, in his essay No Silver Bullet identified a three-part plan for finding great software designers: </p>
+<ol>
+<li>Systematically identify top designers as early as possible.</li>
+<li>Assign a career mentor to be responsible for the development of the prospect and carefully keep a career file.</li>
+<li>Provide opportunities for growing designers to interact and stimulate each other.</li>
+</ol>
+<p>This assumes that some people already have the qualities necessary for being a great designer; the job is to properly coax them along. Alan Perlis put it more succinctly: &quot;Everyone can be taught to sculpt: Michelangelo would have had to be taught how not to. So it is with the great programmers&quot;. Perlis is saying that the greats have some internal quality that transcends their training. But where does the quality come from? Is it innate? Or do they develop it through diligence? As Auguste Gusteau (the fictional chef in Ratatouille) puts it, &quot;anyone can cook, but only the fearless can be great.&quot; I think of it more as willingness to devote a large portion of one&apos;s life to deliberative practice. But maybe fearless is a way to summarize that. Or, as Gusteau&apos;s critic, Anton Ego, says: &quot;Not everyone can become a great artist, but a great artist can come from anywhere.&quot; </p>
+<p>So go ahead and buy that Java/Ruby/Javascript/PHP book; you&apos;ll probably get some use out of it. But you won&apos;t change your life, or your real overall expertise as a programmer in 24 hours or 21 days. How about working hard to continually improve over 24 months? Well, now you&apos;re starting to get somewhere... </p>
+<hr>
+<h3 id="references">References</h3>
+<p>Bloom, Benjamin (ed.) Developing Talent in Young People, Ballantine, 1985.</p>
+<p>Brooks, Fred, No Silver Bullets, IEEE Computer, vol. 20, no. 4, 1987, p. 10-19. </p>
+<p>Bryan, W.L. &amp; Harter, N. &quot;Studies on the telegraphic language: The acquisition of a hierarchy of habits. Psychology Review, 1899, 8, 345-375 </p>
+<p>Hayes, John R., Complete Problem Solver Lawrence Erlbaum, 1989. </p>
+<p>Chase, William G. &amp; Simon, Herbert A. &quot;Perception in Chess&quot; Cognitive Psychology, 1973, 4, 55-81. </p>
+<p>Lave, Jean, Cognition in Practice: Mind, Mathematics, and Culture in Everyday Life, Cambridge University Press, 1988. </p>
+<hr>
+<h3 id="answers">Answers</h3>
+<p>Approximate timing for various operations on a typical PC:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">options</th>
+<th style="text-align:right">time</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">execute typical instruction</td>
+<td style="text-align:right">1/1,000,000,000 sec = 1 nanosec</td>
+</tr>
+<tr>
+<td style="text-align:left">fetch from L1 cache memory</td>
+<td style="text-align:right">0.5 nanosec</td>
+</tr>
+<tr>
+<td style="text-align:left">branch misprediction</td>
+<td style="text-align:right">5 nanosec</td>
+</tr>
+<tr>
+<td style="text-align:left">fetch from L2 cache memory</td>
+<td style="text-align:right">7 nanosec</td>
+</tr>
+<tr>
+<td style="text-align:left">Mutex lock/unlock</td>
+<td style="text-align:right">25 nanosec</td>
+</tr>
+<tr>
+<td style="text-align:left">fetch from main memory</td>
+<td style="text-align:right">100 nanosec</td>
+</tr>
+<tr>
+<td style="text-align:left">send 2K bytes over 1Gbps network</td>
+<td style="text-align:right">20,000 nanosec</td>
+</tr>
+<tr>
+<td style="text-align:left">read 1MB sequentially from memory</td>
+<td style="text-align:right">250,000 nanosec</td>
+</tr>
+<tr>
+<td style="text-align:left">fetch from new disk location (seek)</td>
+<td style="text-align:right">8,000,000 nanosec</td>
+</tr>
+<tr>
+<td style="text-align:left">read 1MB sequentially from disk</td>
+<td style="text-align:right">20,000,000 nanosec</td>
+</tr>
+<tr>
+<td style="text-align:left">send packet US to Europe and back</td>
+<td style="text-align:right">150 milliseconds = 150,000,000 nanosec</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="appendix-language-choice">Appendix: Language Choice</h3>
+<p>Several people have asked what programming language they should learn first. There is no one answer, but consider these points: </p>
+<ul>
+<li><strong><em>Use your friends</em></strong>. When asked &quot;what operating system should I use, Windows, Unix, or Mac?&quot;, my answer is usually: &quot;use whatever your friends use.&quot; The advantage you get from learning from your friends will offset any intrinsic difference between OS, or between programming languages. Also consider your future friends: the community of programmers that you will be a part of if you continue. Does your chosen language have a large growing community or a small dying one? Are there books, web sites, and online forums to get answers from? Do you like the people in those forums? </li>
+<li><strong><em>Keep it simple</em></strong>. Programming languages such as C++ and Java are designed for professional development by large teams of experienced programmers who are concerned about the run-time efficiency of their code. As a result, these languages have complicated parts designed for these circumstances. You&apos;re concerned with learning to program. You don&apos;t need that complication. You want a language that was designed to be easy to learn and remember by a single new programmer. </li>
+<li><strong><em>Play</em></strong>. Which way would you rather learn to play the piano: the normal, interactive way, in which you hear each note as soon as you hit a key, or &quot;batch&quot; mode, in which you only hear the notes after you finish a whole song? Clearly, interactive mode makes learning easier for the piano, and also for programming. Insist on a language with an interactive mode and use it. </li>
+</ul>
+<p>Given these criteria, my recommendations for a first programming language would be Python or Scheme. Another choice is Javascript, not because it is perfectly well-designed for beginners, but because there are so many online tutorials for it, such as Khan Academy&apos;s tutorial. But your circumstances may vary, and there are other good choices. If your age is a single-digit, you might prefer Alice or Squeak or Blockly (older learners might also enjoy these). The important thing is that you choose and get started. </p>
+<hr>
+<h3 id="appendix-books-and-other-resources">Appendix: Books and Other Resources</h3>
+<p>Several people have asked what books and web pages they should learn from. I repeat that &quot;book learning alone won&apos;t be enough&quot; but I can recommend the following:</p>
+<ul>
+<li><strong><em>Scheme:</em></strong> Structure and Interpretation of Computer Programs (Abelson &amp; Sussman) is probably the best introduction to computer science, and it does teach programming as a way of understanding the computer science. You can see online videos of lectures on this book, as well as the complete text online. The book is challenging and will weed out some people who perhaps could be successful with another approach. </li>
+<li><strong><em>Scheme:</em></strong> How to Design Programs (Felleisen et al.) is one of the best books on how to actually design programs in an elegant and functional way. </li>
+<li><strong><em>Python:</em></strong> Python Programming: An Intro to CS (Zelle) is a good introduction using Python. </li>
+<li><strong><em>Python:</em></strong> Several online tutorials are available at Python.org. </li>
+<li><strong><em>Oz:</em></strong> Concepts, Techniques, and Models of Computer Programming (Van Roy &amp; Haridi) is seen by some as the modern-day successor to Abelson &amp; Sussman. It is a tour through the big ideas of programming, covering a wider range than Abelson &amp; Sussman while being perhaps easier to read and follow. It uses a language, Oz, that is not widely known but serves as a basis for learning other languages. </li>
+</ul>
+<hr>
+<h3 id="notes">Notes</h3>
+<p>T. Capey points out that the Complete Problem Solver page on Amazon now has the &quot;Teach Yourself Bengali in 21 days&quot; and &quot;Teach Yourself Grammar and Style&quot; books under the &quot;Customers who shopped for this item also shopped for these items&quot; section. I guess that a large portion of the people who look at that book are coming from this page. Thanks to Ross Cohen for help with Hippocrates.</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="Alibaba.html" class="navigation navigation-prev " aria-label="Previous page: 一个从阿里面试回来的程序员的感想">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="the-battle-between-Intel-and-ARM.html" class="navigation navigation-next " aria-label="Next page: 从Intel和ARM争霸战，看看做芯片有多难">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"用十年来学编程","level":"1.6.2","depth":2,"next":{"title":"从Intel和ARM争霸战，看看做芯片有多难","level":"1.6.3","depth":2,"path":"docs/Reprint/the-battle-between-Intel-and-ARM.md","ref":"docs/Reprint/the-battle-between-Intel-and-ARM.md","articles":[]},"previous":{"title":"一个从阿里面试回来的程序员的感想","level":"1.6.1","depth":2,"path":"docs/Reprint/Alibaba.md","ref":"docs/Reprint/Alibaba.md","articles":[]},"dir":"ltr"},"config":{"plugins":["splitter","edit-link","search-pro","emphasize","toggle-chapters","katex","mermaid-gb3","advanced-emoji","include-codeblock"],"styles":{"website":"styles/website.css","ebook":"styles/ebook.css","pdf":"styles/pdf.css","mobi":"styles/mobi.css","epub":"styles/epub.css"},"pluginsConfig":{"emphasize":{},"splitter":{},"search-pro":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"mermaid-gb3":{},"advanced-emoji":{"embedEmojis":false},"include-codeblock":{"check":false,"edit":false,"fixlang":false,"lang":"","template":"default","theme":"chrome","unindent":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"label":"","base":""},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"toggle-chapters":{}},"theme":"default","author":"LingCoder","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"《On Java 8》中文版","language":"zh-hans","gitbook":"3.2.3","description":"根据 Bruce Eckel 大神的新书 On Java 8 翻译，可以说是事实上的 Thinking in Java 5th"},"file":{"path":"docs/Reprint/program-in-ten-years.md","mtime":"2019-09-03T15:32:24.933Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-09-04T15:07:06.539Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-toggle-chapters/toggle.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-mermaid-gb3/book/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    <script src="../../gitbook/gitbook-plugin-mermaid-gb3/mermaid/mermaid.min.js"></script>
+
+    </body>
+</html>
+
