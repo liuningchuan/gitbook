@@ -57,7 +57,7 @@ public class SwaggerConfig {
         Contact contact = new Contact(
                 "LiuNing",
                 "https://springfox.github.io/springfox/",
-                "liuning@cqfmbank.com"
+                "599522516@qq.com"
         );
 
         return new ApiInfoBuilder()
